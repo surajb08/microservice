@@ -10,13 +10,14 @@ Just remember during the launch of container it requires `python app.py` from CM
 
 Your assignment goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/),assignment you will:
 * Complete a Dockerfile to containerize this application
-* Deploy your containerized application using Docker and make a prediction
+* Deploy your containerized application using Docker and make a prediction.
 * Improve the log statements in the source code for this application(optional)
 * Configure Kubernetes and create a Kubernetes cluster
 * Deploy a container using Kubernetes and make a prediction(make_prediction.sh already included for the reference on sending request), add deployment and a service for handling heavy payload.
 * add additional command in makefile if require.
 
 **The final implementation of the assignment will showcase your abilities to operationalize production microservices.**
+**Payload will be in the form of Json file and expected sample output from docker and kubernetes have been included inside samp_output_txt.**
 
 ---
 
