@@ -17,6 +17,7 @@ def scale(payload):
 
 @app.route("/")
 def home():
+    """Home page, add code here """
     html = f"<h3>Sklearn Prediction Home</h3>"
     return html.format(format)
 
@@ -25,6 +26,7 @@ def predict():
     """Performs an sklearn prediction
         
         input looks like:
+
         {
         "CHAS":{
         "0":0
@@ -60,4 +62,5 @@ def predict():
 if __name__ == "__main__":
     # load pretrained model as clf
     clf = joblib.load("./model_data/boston_housing_prediction.joblib")
-    app.run(host='0.0.0.0', port=80, debug=True) # specify port=80
+    """Add code here """
+    # Run flask application

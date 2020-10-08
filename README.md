@@ -34,7 +34,7 @@ Your assignment goal is to operationalize this working, machine learning microse
 
 `python app.py`
 
-#### Run in Docker:  
+#### Include Dockerfile, Run in Docker
 
 #### Run in Kubernetes: 
 
@@ -51,5 +51,6 @@ Your assignment goal is to operationalize this working, machine learning microse
 * Add applicable service type for load balancing
 * Run via kubectl
 * Include documentation during submission
+* Add additional packages inside requirements.txt if there are any
 ### Kubernetes Clean Up
 ### Git commit
