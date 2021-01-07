@@ -51,6 +51,7 @@ Your assignment goal is to operationalize this working, machine learning microse
 * Add applicable service type for load balancing
 * Run via kubectl
 * Include documentation during submission
-* Add additional packages inside requirements.txt if there are any
-### Kubernetes Clean Up
+* Add additional packages inside requirements.txt if there are any.
+* Kubernetes Clean Up steps
+
 # Git commit is mendatory,make your repository publicly available. without this submission will not be entertained.
