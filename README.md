@@ -53,4 +53,4 @@ Your assignment goal is to operationalize this working, machine learning microse
 * Include documentation during submission
 * Add additional packages inside requirements.txt if there are any
 ### Kubernetes Clean Up
-### Git commit
+## Git commit(This is mendatory step,make your repository. without this submission will not be entertained)
