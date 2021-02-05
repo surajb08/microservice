@@ -1,12 +1,17 @@
-FROM frolvlad/alpine-python-machinelearning 
+# FROM frolvlad/alpine-python-machinelearning 
 #FROM python:alpine
+FROM smizy/scikit-learn:0.20.3-alpine
 
-WORKDIR /home/app
+#WORKDIR /home/app
 
-ADD requirements.txt .
+# ADD requirements.txt .
 
-RUN apk add build pip install -r requirements.txt
+# RUN pip install -r requirements.txt
 
-Add module_data app.py ./
+RUN pip install flask 
+
+Add model_data app.py ./
+
+EXPOSE 8000
 
 CMD [ "python", "app.py" ]
